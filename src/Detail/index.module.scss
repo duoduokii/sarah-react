@@ -1,0 +1,17 @@
+.detail {
+	width: 100vw;
+	height: 100vh;
+	.btn {
+		position: fixed;
+		top: 10px;
+		right: 10px;
+		width: 100px;
+		height: 40px;
+		border-radius: 5px;
+		border: transparent;
+		background-color: blueviolet;
+		color: #fff;
+		cursor: pointer;
+		font-size: 16px;
+	}
+}
