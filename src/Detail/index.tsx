@@ -35,7 +35,7 @@ function Detail() {
     }, false)
     canvas.addEventListener('mousemove', (e) => {
       if (!hasMouseDown) return
-      // TODO 兼容性处理
+      // TODO offsetX 兼容性处理
       const [x, y] = [e.offsetX, e.offsetY]
       ctx.strokeStyle = '#09f';
       ctx.beginPath();

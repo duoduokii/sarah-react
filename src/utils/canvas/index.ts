@@ -6,6 +6,9 @@ export function transCanvasToImg(config: CanvasToImageConfig) {
 	const imgUrl = config.canvas.toDataURL(MIME_TYPE)
 	const link = document.createElement('a')
 
+	console.log(imgUrl);
+	return
+
 	link.download = config.fileName
 	link.href = imgUrl
 
